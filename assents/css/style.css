@@ -40,6 +40,7 @@ body{
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    align-items: center;
 }
 
 #title{
@@ -99,18 +100,39 @@ body{
     outline: none;
 }
 
+
 #Calcular{
     border: none;
     font-size: 1rem;
-    font-display: center;
-    background-color: gray;
+    background-color:grey;
     color: black;
-    padding: o.5rem 0;
+    width: 100%;
+    padding: 0.5rem 0;
     border-radius: 3px;
     cursor: pointer;
+    margin-top: 10px;
 }
 
 #results{
     display: flex;
+    gap: 2rem;
+    align-items: center;
+    border-top: 1px solid;
+    padding: 0.75rem 0;
 }
 
+#bmi{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 2rem;
+} 
+
+#bmi span:last-child{
+    font-size: 1rem;
+    color: gray;
+}
+
+#description{
+    width: 15.5rem;
+}
