@@ -30,11 +30,11 @@
                     </div>
                     <div class="input-box">
                         <label for="heigth">
-                            Peso em Altura
+                            Altura em metros
                         </label>
                         <div class="input-field">
                             <i class="fa-solid fa-ruler"></i>
-                            <input type="number" id="heigth" required>
+                            <input type="number" id="heigth" step="0.010" required>
                             <span>
                                 M
                             </span>
@@ -45,11 +45,11 @@
                      Calcular
                    </button>
             </form>
-            <div id="infos">
+            <div id="infos" class="hidden">
                 <div id="results">
                     <div id="bmi">
-                        <span id="value"></span>
                         <span>Seu IMC</span>
+                        <span id="value"></span>
                     </div>
                     <div id="description">
                         <span></span>
@@ -58,5 +58,7 @@
             </div>
         </section>
     </main>
+
+    <script src="assents/js/script.js"></script>
 </body>
 </html>
